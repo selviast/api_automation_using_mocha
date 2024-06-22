@@ -1,0 +1,22 @@
+{
+  "name": "api_automation_using_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "api-test": "echo 'Eksekusi test'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1"
+  }
+}
